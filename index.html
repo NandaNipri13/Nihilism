@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIHILISM</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+
+    <input type="checkbox" id="check">
+    <div class="sidebar">
+        <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Partners">Partners</a></li>
+        <li><a href="#Help">Help</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </div>
+    <header>
+        <div class="container">
+        <h1><a href="">NIHILISM</a></h1>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Partners">Partners</a></li>
+            <li><a href="#Help">Help</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+
+
+        <label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>
+    </div>
+    </header>
+    <section class="banner">
+        <div class="container">
+            <img src="img/banner 1.png">
+            <h2>MAKE THE DIFFERENT CHANGE!</h2>
+            <p>You Choose the right path buddy.</p>
+        </div>
+    </section>
+
+    <section id="Home">
+        <div class="container">
+            <h3>HOME</h3>
+            <p>Volunteering is a voluntary act of an individual or group freely giving time and labour for community service. Many volunteers are specifically trained in the areas they work, such as medicine, education, or emergency rescue </p>
+            <p>We made it into 4 main section of volunteering activities. It's Social Volunteering, Event Volunteering, Campaing Volunteering and Voluntourism.</p>
+            <p>Click More Info to find which one fit you :)</p>
+            <div class="Tombol">
+            <a href="#" class="btn-lr">More Info</a>
+            <button onclick="ubah()">Try Dark Mode</button>
+            <script type="text/javascript">
+            function ubah() {
+                var element = document.body;
+                element.classList.toggle("dark-mode")
+            }
+            </script>
+            </div>         
+        </div>
+    </section>
+
+    <section id="Partners">
+        <div class="container">
+            <h3>OUR BEST PARTNERS</h3>
+            <div class="col-4">
+                <img src="img/logo 5.png">
+            </div>
+            <div class="col-4">
+                <img src="img/logo2.png">  
+            </div>
+            <div class="col-4">
+                <img src="img/logo 3.png"> 
+            </div>
+            <div class="col-4">
+                <img src="img/logo 7.png">  
+            </div>
+        </div>
+    </section>
+
+    <section id="Help">
+        <div class="container">
+            <h3>Help</h3>
+            <p>Email (Required)</p>
+            <input>
+
+            <p>Message (Required)</p>
+            <textarea></textarea>
+
+            <p>*Required fields must be filled.</p>
+            <input class="contact-submit" type="submit" value="Send">
+        </div>
+    </section>
+
+    <section id="Contact">
+        <div class="container">
+            <h3>Contact Us</h3>
+            <div class="col-3">
+                <h4>Address</h4>
+                <p>Jl.Raden Puguh No.1,Puyung,Lombok Tengah.</p>
+            </div>
+            <div class="col-3">
+                <h4>EMAIL</h4>
+                <p>Averrous33@gmail.com</p>
+            </div>
+            <div class="col-3">
+                <h4>Hp/Telp</h4>
+                <p>+6282236895061/ (0370) 466596</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <small>Copyright &copy 2021 Nandanif</small>
+        </div>
+    </footer>
+        
+            
+        
+    
+</body>
+</html>
