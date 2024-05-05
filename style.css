@@ -1,7 +1,7 @@
 * {
     padding: 0;
     margin: 0;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:"signika";
 }
 
 header {
@@ -9,17 +9,19 @@ header {
 }
 
 header h1 a:hover {
-    color:rgb(145, 207, 207);
+    color:#fcc931;
 }
 
 header h1 a {
     transition: 0.3s;
-    color: coral;
+    color: #3143c2;
 }
-
+header h1 span {
+    color: #fcc931;
+}
 header h1 {
     display: inline-block;
-    float: left;
+    float: none;
     padding: 16px 24px;
 }
 
@@ -33,12 +35,12 @@ header ul li {
 }
 
 header ul li a:hover {
-    color: rgb(145, 207, 207);
+    color: #fcc931;
 }
 
 header ul li a {
     transition: 0.3s;
-    color:coral;
+    color:3143c2;
 }
 
 a {
